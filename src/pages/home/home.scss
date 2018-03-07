@@ -3,16 +3,24 @@
   src: url('Mina-Regular.ttf');
 }
 
+.clear{
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .login{
   background-image: url('../assets/imgs/login-metas.png');
   // background: url('../../img/getstart.png');
   background-repeat: no-repeat;
   background-size:cover;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .login-list{
   margin: 0 auto;
-  margin-top: -60px;
+  margin-top: -90px;
 }
 
 .login-item{
@@ -29,13 +37,34 @@
 }
 
 .login-input{
-  border-bottom: 2px solid black;
+  width: 200px;
+  border-bottom: 1px solid black;
   border-top: none;
 }
 
 .login-logo{
-  margin: 50px 70px;
+  margin: 20% 0;
   width: 180px;
   height: 160px;
   background-color: transparent;
+}
+
+.login-button{
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: #002f5d;
+  font-family: mina;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 5px 40px;
+  font-size: 1.5em;
+}
+
+.login-forget{
+  color: #002f5d;
+  font-family: mina;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 1.1em;
+  text-decoration: underline;
 }
