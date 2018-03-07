@@ -1,3 +1,41 @@
-page-home {
+@font-face{
+  font-family: mina;
+  src: url('Mina-Regular.ttf');
+}
 
+.login{
+  background-image: url('../assets/imgs/login-metas.png');
+  // background: url('../../img/getstart.png');
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+.login-list{
+  margin: 0 auto;
+  margin-top: -60px;
+}
+
+.login-item{
+  margin: 10px 0;
+  background-color: transparent;
+  border-top: none;
+}
+
+.login-label{
+  color: black !important;
+  text-align: center;
+  font-family: mina;
+  font-size: 1.125em !important;
+}
+
+.login-input{
+  border-bottom: 2px solid black;
+  border-top: none;
+}
+
+.login-logo{
+  margin: 50px 70px;
+  width: 180px;
+  height: 160px;
+  background-color: transparent;
 }
