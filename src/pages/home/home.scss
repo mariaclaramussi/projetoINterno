@@ -9,9 +9,10 @@
   clear: both;
 }
 
+/*css da pagina de login*/
+
 .login{
   background-image: url('../assets/imgs/login-metas.png');
-  // background: url('../../img/getstart.png');
   background-repeat: no-repeat;
   background-size:cover;
   text-align: center;
@@ -24,7 +25,6 @@
 }
 
 .login-item{
-  margin: 10px 0;
   background-color: transparent;
   border-top: none;
 }
@@ -51,12 +51,23 @@
 
 .login-button{
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 25px;
   background-color: #002f5d;
   font-family: mina;
   text-transform: capitalize;
   text-align: center;
   padding: 5px 40px;
+  font-size: 1.5em;
+}
+
+.register-button{
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: #002f5d;
+  font-family: mina;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 5px 30px;
   font-size: 1.5em;
 }
 
@@ -67,4 +78,14 @@
   text-align: center;
   font-size: 1.1em;
   text-decoration: underline;
+}
+
+/*borda branca do primeiro input na página de login*/
+.item-md.item-block .item-inner{
+  border: none;
+}
+
+/*borda branca do segundo input na página de login*/
+.list-md .item-input:last-child {
+  border: none;
 }
