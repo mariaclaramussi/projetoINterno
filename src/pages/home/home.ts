@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { CadastroPage} from '../../pages/cadastro/cadastro';
 import { NavController } from 'ionic-angular';
 
 @Component({
@@ -9,6 +10,10 @@ export class HomePage {
 
   constructor(public navCtrl: NavController) {
 
+  }
+
+  pagina_cadastro(){
+    this.navCtrl.push(CadastroPage);
   }
 
 }

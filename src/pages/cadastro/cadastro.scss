@@ -1,0 +1,30 @@
+.cadastro{
+  background-image: url('../../assets/imgs/login-metas.png');
+  background-repeat: no-repeat;
+  background-size:cover;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.cadastro-list{
+  margin: auto;
+  margin-top: 40px;
+}
+
+.cadastro-item{
+  background-color: transparent;
+  border-top: none;
+}
+
+.cadastro-label{
+  color: black !important;
+  text-align: center;
+  font-family: mina;
+  font-size: 1.125em !important;
+}
+
+.cadastro-input{
+  width: 200px;
+  border-bottom: 1px solid black;
+  border-top: none;
+}
